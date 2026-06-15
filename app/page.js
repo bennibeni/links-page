@@ -15,6 +15,22 @@ const projects = [
     status: "Live",
     accent: "green",
   },
+  {
+    name: "Malaria",
+    description:
+      "Simulazione interattiva della diffusione della malaria e della selezione genetica legata alla falcemia.",
+    href: "https://malaria-plum.vercel.app",
+    status: "Live",
+    accent: "red",
+  },
+  {
+    name: "SET solitario",
+    description:
+      "Mini-app per giocare a SET ed esplorare la struttura affine F₃⁴ delle carte.",
+    href: "https://set-affine-game.vercel.app/",
+    status: "Live",
+    accent: "purple",
+  },
 ];
 
 export default function Home() {
