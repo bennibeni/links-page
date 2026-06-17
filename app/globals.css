@@ -7,6 +7,7 @@
   --green: #14705f;
   --blue: #315f9f;
   --red: #a84747;
+  --yellow: #b08800;
   --shadow: 0 20px 55px rgba(30, 34, 42, 0.1);
 }
 
@@ -126,6 +127,10 @@ a {
 
 .accent-purple {
   --accent: #8b5cf6;
+}
+
+.accent-yellow {
+  --accent: var(--yellow);
 }
 
 .status {

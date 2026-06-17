@@ -41,6 +41,8 @@ const projects = [
   },
 ];
 
+// Ricordarsi di aggiornare la lista dei colori in app/globals.css se si aggiungono nuovi progetti con accenti diversi.
+
 export default function Home() {
   return (
     <main className="shell">
