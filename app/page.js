@@ -31,6 +31,14 @@ const projects = [
     status: "Live",
     accent: "purple",
   },
+  {
+    name: "Mendel peas",
+    description:
+      "Simulazione interattiva della genetica mendeliana con piselli.",
+    href: "https://mendelpeas.vercel.app/",
+    status: "Live",
+    accent: "yellow",
+  },
 ];
 
 export default function Home() {

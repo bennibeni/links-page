@@ -1,0 +1,5 @@
+Ultimo commit e push:
+
+git add app/page.js
+git commit -m "Aggiunti Malaria e SET solitario"
+git push
