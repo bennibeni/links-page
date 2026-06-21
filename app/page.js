@@ -43,8 +43,8 @@ const projects = [
     name: "RMHMC Visualizer",
     description:
       "Simulazione interattiva del campionamento Hamiltoniano Monte Carlo su varietà Riemanniana (RMHMC), con motore di calcolo in un Web Worker dedicato.",
-    href: null,
-    status: "In sviluppo",
+    href: "https://rmhmc.vercel.app",
+    status: "Live",
     accent: "blue",
   },
 ];
