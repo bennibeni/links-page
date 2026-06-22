@@ -47,6 +47,14 @@ const projects = [
     status: "Live",
     accent: "blue",
   },
+  {
+    name: "Meiosi",
+    description:
+      "Animazione interattiva sulla meiosi: crossing-over e assortimento indipendente, con sintesi vocale che descrive ogni fase.",
+    href: "https://meiosi.vercel.app/",
+    status: "Live",
+    accent: "green",
+  },
 ];
 
 // Ricordarsi di aggiornare la lista dei colori in app/globals.css se si aggiungono nuovi progetti con accenti diversi.
