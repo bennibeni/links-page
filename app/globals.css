@@ -133,6 +133,10 @@ a {
   --accent: var(--yellow);
 }
 
+.accent-orange {
+  --accent: var(--orange);
+}
+
 .status {
   align-self: start;
   border: 1px solid color-mix(in srgb, var(--accent), white 65%);
