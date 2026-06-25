@@ -39,6 +39,13 @@ const projects = [
     status: "Live",
     accent: "yellow",
   },
+  {
+    name: "Cheat Stories",
+    description: "Racconti interattivi basati su scelte e conseguenze.",
+    href: "https://cheat-stories.vercel.app/",
+    status: "Live",
+    accent: "orange",
+  },
 ];
 
 // Ricordarsi di aggiornare la lista dei colori in app/globals.css se si aggiungono nuovi progetti con accenti diversi.
