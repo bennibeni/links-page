@@ -44,7 +44,7 @@ const projects = [
     description: "Racconti interattivi basati su scelte e conseguenze.",
     href: "https://cheat-stories.vercel.app/",
     status: "Live",
-    accent: "orange",
+    accent: "red",
   },
 ];
 

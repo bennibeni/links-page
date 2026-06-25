@@ -133,8 +133,8 @@ a {
   --accent: var(--yellow);
 }
 
-.accent-orange {
-  --accent: var(--orange);
+.accent-red {
+  --accent: var(--red);
 }
 
 .status {
