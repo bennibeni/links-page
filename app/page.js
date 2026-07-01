@@ -4,7 +4,6 @@ const projects = [
     description:
       "Esperimento visuale sulle tassellazioni ispirate alla sequenza di Fibonacci.",
     href: "https://r33-fibonacci-tiling.vercel.app/",
-    status: "Live",
     accent: "blue",
   },
   {
@@ -12,7 +11,6 @@ const projects = [
     description:
       "Esplorazione interattiva del crivello e della sequenza collegata.",
     href: "https://sundaram-h7e2q9ex1-bennibenis-projects.vercel.app/",
-    status: "Live",
     accent: "green",
   },
   {
@@ -20,15 +18,13 @@ const projects = [
     description:
       "Simulazione interattiva della diffusione della malaria e della selezione genetica legata alla falcemia.",
     href: "https://malaria-plum.vercel.app",
-    status: "Live",
     accent: "red",
   },
   {
     name: "SET solitario",
     description:
-      "Mini-app per giocare a SET ed esplorare la struttura affine F₃⁴ delle carte.",
+      "Mini-app per giocare a SET ed esplorare la struttura affine F\u2083\u2074 delle carte.",
     href: "https://set-affine-game.vercel.app/",
-    status: "Live",
     accent: "purple",
   },
   {
@@ -36,46 +32,49 @@ const projects = [
     description:
       "Simulazione interattiva della genetica mendeliana con piselli.",
     href: "https://mendelpeas.vercel.app/",
-    status: "Live",
     accent: "yellow",
   },
   {
     name: "Cheat Stories",
     description: "Racconti interattivi basati su scelte e conseguenze.",
     href: "https://cheat-stories.vercel.app/",
-    status: "Live",
     accent: "red",
   },
   {
     name: "Specimen",
     description:
-      "Gioco combinatorio ispirato alla genetica umana: genoma 4×4, regola TTE-T4, fenotipo a 6 caratteri e avatar interattivo.",
+      "Gioco combinatorio ispirato alla genetica umana: genoma 4\u00d74, regola TTE-T4, fenotipo a 6 caratteri e avatar interattivo.",
     href: "https://specimen-t3oh.vercel.app/",
-    status: "Live",
     accent: "amber",
   },
 ];
 
-// Ricordarsi di aggiornare la lista dei colori in app/globals.css se si aggiungono nuovi progetti con accenti diversi.
-
 export default function Home() {
+  const count = String(projects.length).padStart(2, "0");
+
   return (
     <main className="shell">
-      <section className="intro" aria-labelledby="page-title">
-        <p className="kicker">bennibenis-projects</p>
-        <h1 id="page-title">I miei progetti</h1>
-      </section>
+      <header className="hero">
+        <div>
+          <p className="eyebrow">bennibenis-projects</p>
+          <h1 className="hero-title">
+            I miei
+            <br />
+            progetti
+          </h1>
+        </div>
+        <span className="hero-count" aria-label={`${projects.length} progetti`}>
+          {count}
+        </span>
+      </header>
 
       <section className="project-grid" aria-label="Link ai progetti">
         {projects.map((project) => (
           <article
-            className={`project-card accent-${project.accent} ${
-              project.href ? "" : "is-disabled"
-            }`}
+            className={`project-card accent-${project.accent}`}
             key={project.name}
           >
-            <span className="status">{project.status}</span>
-            <span className="card-title">{project.name}</span>
+            <span className="card-name">{project.name}</span>
             <span className="card-description">{project.description}</span>
             {project.href ? (
               <a
@@ -84,11 +83,10 @@ export default function Home() {
                 rel="noreferrer"
                 target="_blank"
               >
-                Apri
-                <span aria-hidden="true">-&gt;</span>
+                Apri <span aria-hidden="true">&rarr;</span>
               </a>
             ) : (
-              <span className="open-link is-muted">URL pubblico mancante</span>
+              <span className="open-link is-muted">URL mancante</span>
             )}
           </article>
         ))}
