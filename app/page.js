@@ -46,6 +46,14 @@ const projects = [
     status: "Live",
     accent: "red",
   },
+  {
+    name: "Specimen",
+    description:
+      "Gioco combinatorio ispirato alla genetica umana: genoma 4×4, regola TTE-T4, fenotipo a 6 caratteri e avatar interattivo.",
+    href: "https://specimen-t3oh.vercel.app/",
+    status: "Live",
+    accent: "amber",
+  },
 ];
 
 // Ricordarsi di aggiornare la lista dei colori in app/globals.css se si aggiungono nuovi progetti con accenti diversi.

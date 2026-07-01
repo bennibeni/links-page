@@ -137,6 +137,10 @@ a {
   --accent: var(--red);
 }
 
+.accent-amber {
+  --accent: #e8a33d;
+}
+
 .status {
   align-self: start;
   border: 1px solid color-mix(in srgb, var(--accent), white 65%);
