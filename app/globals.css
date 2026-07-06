@@ -132,6 +132,7 @@ a { color: inherit; text-decoration: none; }
 .accent-purple { --accent: #a371f7; }
 .accent-yellow { --accent: #d29922; }
 .accent-amber  { --accent: #e3b341; }
+.accent-teal   { --accent: #2dd4bf; }
 
 @media (max-width: 640px) {
   .hero { align-items: flex-start; flex-direction: column; gap: 12px; }

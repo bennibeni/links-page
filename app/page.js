@@ -47,6 +47,13 @@ const projects = [
     href: "https://specimen-t3oh.vercel.app/",
     accent: "amber",
   },
+  {
+    name: "Meiosi",
+    description:
+      "Simulazione interattiva della meiosi, dell’assortimento indipendente e della ricombinazione genetica.",
+    href: "https://meiosi.vercel.app/",
+    accent: "teal",
+  },
 ];
 
 export default function Home() {
