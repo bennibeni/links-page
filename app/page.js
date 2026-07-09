@@ -54,6 +54,13 @@ const projects = [
     href: "https://meiosi.vercel.app/",
     accent: "teal",
   },
+  {
+    name: "Weather in USA (Maine)",
+    description:
+      "MCP server exposing US weather alerts and forecasts (National Weather Service) over Streamable HTTP.",
+    href: "https://weather-five-eosin-13.vercel.app/",
+    accent: "blue",
+  },
 ];
 
 export default function Home() {
