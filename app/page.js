@@ -67,11 +67,18 @@ const projects = [
     href: "https://l-insegnante.vercel.app/",
     accent: "green",
   },
-  ,
 ];
 
 export default function Home() {
   const count = String(projects.length).padStart(2, "0");
+  console.log(
+    "projects",
+    projects,
+    "projects.length",
+    projects.length,
+    "count",
+    count,
+  );
 
   return (
     <main className="shell">
