@@ -1,6 +1,6 @@
 const projects = [
   {
-    name: "R33 Fibonacci Tiling",
+    name: "Fibonacci Tiling Viewer",
     description:
       "Esperimento visuale sulle tassellazioni ispirate alla sequenza di Fibonacci.",
     href: "https://r33-fibonacci-tiling.vercel.app/",
@@ -55,12 +55,19 @@ const projects = [
     accent: "teal",
   },
   {
-    name: "Weather in USA (Maine)",
+    name: "US Weather",
     description:
       "MCP server exposing US weather alerts and forecasts (National Weather Service) over Streamable HTTP.",
     href: "https://weather-five-eosin-13.vercel.app/",
     accent: "blue",
   },
+  {
+    name: "L'insegnante",
+    description: "Multilingual Vocabulary Quiz.",
+    href: "https://l-insegnante.vercel.app/",
+    accent: "green",
+  },
+  ,
 ];
 
 export default function Home() {
