@@ -11,7 +11,7 @@ const projects = [
     description:
       "Esplorazione interattiva del crivello e della sequenza collegata.",
     href: "https://sundaram-h7e2q9ex1-bennibenis-projects.vercel.app/",
-    accent: "cyan",
+    accent: "slate",
   },
   {
     name: "Malaria",
@@ -38,14 +38,14 @@ const projects = [
     name: "Cheat Stories",
     description: "Racconti interattivi basati su scelte e conseguenze.",
     href: "https://cheat-stories.vercel.app/",
-    accent: "orange",
+    accent: "rose",
   },
   {
     name: "Specimen",
     description:
       "Gioco combinatorio ispirato alla genetica umana: genoma 4\u00d74, regola TTE-T4, fenotipo a 6 caratteri e avatar interattivo.",
     href: "https://specimen-t3oh.vercel.app/",
-    accent: "amber",
+    accent: "violet",
   },
   {
     name: "Meiosi",
