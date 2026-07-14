@@ -11,7 +11,7 @@ const projects = [
     description:
       "Esplorazione interattiva del crivello e della sequenza collegata.",
     href: "https://sundaram-h7e2q9ex1-bennibenis-projects.vercel.app/",
-    accent: "green",
+    accent: "cyan",
   },
   {
     name: "Malaria",
@@ -38,7 +38,7 @@ const projects = [
     name: "Cheat Stories",
     description: "Racconti interattivi basati su scelte e conseguenze.",
     href: "https://cheat-stories.vercel.app/",
-    accent: "red",
+    accent: "orange",
   },
   {
     name: "Specimen",
@@ -59,13 +59,20 @@ const projects = [
     description:
       "MCP server exposing US weather alerts and forecasts (National Weather Service) over Streamable HTTP.",
     href: "https://weather-five-eosin-13.vercel.app/",
-    accent: "blue",
+    accent: "pink",
   },
   {
     name: "L'insegnante",
     description: "Multilingual Vocabulary Quiz.",
     href: "https://l-insegnante.vercel.app/",
     accent: "green",
+  },
+  {
+    name: "Teleport Chess",
+    description:
+      "Scacchi a due giocatori con una variante teleport: sposta un pezzo sulla casella appena lasciata libera dall'ultima mossa avversaria. Multiplayer via link, stato condiviso su Redis.",
+    href: "https://teleport-chess.vercel.app/",
+    accent: "indigo",
   },
 ];
 
