@@ -70,7 +70,7 @@ const projects = [
   {
     name: "Teleport Chess",
     description:
-      "Scacchi a due giocatori con una variante teleport: sposta un pezzo sulla casella appena lasciata libera dall'ultima mossa avversaria. Multiplayer via link, stato condiviso su Redis.",
+      "Scacchi a due giocatori con la variante teleport. Multiplayer via link, stato condiviso su Redis.",
     href: "https://teleport-chess.vercel.app/",
     accent: "indigo",
   },
