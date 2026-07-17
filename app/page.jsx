@@ -74,6 +74,13 @@ const projects = [
     href: "https://teleport-chess.vercel.app/",
     accent: "indigo",
   },
+  {
+    name: "Artificial Cell Laboratory",
+    description:
+      "Laboratorio interattivo per la simulazione di cellule artificiali.",
+    href: "https://artificial-cell-laboratory.vercel.app/",
+    accent: "amber",
+  },
 ];
 
 export default function Home() {
