@@ -81,6 +81,12 @@ const projects = [
     href: "https://artificial-cell-laboratory.vercel.app/",
     accent: "amber",
   },
+  {
+    name: "I Gemelli",
+    description: "Gemelli monozigoti, sviluppo differente.",
+    href: "https://monozygotic-twins-development.vercel.app/",
+    accent: "cyan",
+  },
 ];
 
 export default function Home() {
