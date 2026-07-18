@@ -105,6 +105,10 @@ export default function Home() {
       <header className="hero">
         <div>
           <p className="eyebrow">bennibenis-projects</p>
+          <p className="eyebrow">
+            Per commenti:{" "}
+            <a href="mailto:torredihanoi@gmail.com">torredihanoi@gmail.com</a>
+          </p>
           <h1 className="hero-title">
             I miei
             <br />

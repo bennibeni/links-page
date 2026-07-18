@@ -58,6 +58,15 @@ a {
   text-transform: uppercase;
 }
 
+.eyebrow a {
+  color: #58a6ff;
+  text-transform: none;
+}
+
+.eyebrow a:hover {
+  text-decoration: underline;
+}
+
 .hero-title {
   color: var(--ink);
   font-family: "Space Grotesk", system-ui, sans-serif;
