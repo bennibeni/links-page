@@ -87,6 +87,13 @@ const projects = [
     href: "https://monozygotic-twins-development.vercel.app/",
     accent: "cyan",
   },
+  {
+    name: "Library (private)",
+    description:
+      "Catalogo della mia libreria ebook personale, con ricerca, filtri e galleria copertine. Protetto da password.",
+    href: "https://book-knowledge-manager.vercel.app/",
+    accent: "orange",
+  },
 ];
 
 export default function Home() {
