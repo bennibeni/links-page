@@ -94,6 +94,13 @@ const projects = [
     href: "https://book-knowledge-manager.vercel.app/",
     accent: "orange",
   },
+  {
+    name: "Kobo Library (private)",
+    description:
+      "Catalogo della mia libreria ebook personale, con ricerca, filtri e galleria copertine. Protetto da password.",
+    href: "https://kobo-knowledge-manager.vercel.app/",
+    accent: "orange",
+  },
 ];
 
 export default function Home() {
