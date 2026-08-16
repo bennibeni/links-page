@@ -25,7 +25,7 @@ const projects = [
     description:
       "Mini-app per giocare a SET ed esplorare la struttura affine F\u2083\u2074 delle carte.",
     href: "https://set-affine-game.vercel.app/",
-    accent: "purple",
+    accent: "sky",
   },
   {
     name: "Mendel peas",
@@ -45,7 +45,7 @@ const projects = [
     description:
       "Gioco combinatorio ispirato alla genetica umana: genoma 4\u00d74, regola TTE-T4, fenotipo a 6 caratteri e avatar interattivo.",
     href: "https://specimen-t3oh.vercel.app/",
-    accent: "violet",
+    accent: "fuchsia",
   },
   {
     name: "Meiosi",
@@ -101,18 +101,26 @@ const projects = [
     href: "https://kobo-knowledge-manager.vercel.app/",
     accent: "orange",
   },
+  {
+    name: "Keyboard",
+    isNew: true,
+    description:
+      "Esecutore di brani musicali (piano) con metronomo, controllo del tempo e cambio di tonalità",
+    href: "https://keyboard-gilt-sigma.vercel.app/",
+    accent: "violet",
+  },
 ];
 
 export default function Home() {
   const count = String(projects.length).padStart(2, "0");
-  console.log(
-    "projects",
-    projects,
-    "projects.length",
-    projects.length,
-    "count",
-    count,
-  );
+  // console.log(
+  //   "projects",
+  //   projects,
+  //   "projects.length",
+  //   projects.length,
+  //   "count",
+  //   count,
+  // );
 
   return (
     <main className="shell">
@@ -140,7 +148,10 @@ export default function Home() {
             className={`project-card accent-${project.accent}`}
             key={project.name}
           >
-            <span className="card-name">{project.name}</span>
+            <span className="card-name">
+              {project.name}
+              {project.isNew ? <span className="new-badge">NEW!</span> : null}
+            </span>
             <span className="card-description">{project.description}</span>
             {project.href ? (
               <a
