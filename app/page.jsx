@@ -69,6 +69,7 @@ const projects = [
   },
   {
     name: "Teleport Chess",
+    isUpdated: true,
     description:
       "Scacchi a due giocatori con la variante teleport. Multiplayer via link, stato condiviso su Redis.",
     href: "https://teleport-chess.vercel.app/",
@@ -76,6 +77,7 @@ const projects = [
   },
   {
     name: "Artificial Cell Laboratory",
+    isUpdated: true,
     description:
       "Laboratorio interattivo per la simulazione di cellule artificiali.",
     href: "https://artificial-cell-laboratory.vercel.app/",
@@ -159,6 +161,9 @@ export default function Home() {
             <span className="card-name">
               {project.name}
               {project.isNew ? <span className="new-badge">NEW!</span> : null}
+              {project.isUpdated ? (
+                <span className="new-badge">Updated!</span>
+              ) : null}
             </span>
             <span className="card-description">{project.description}</span>
             {project.href ? (
