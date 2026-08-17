@@ -109,6 +109,14 @@ const projects = [
     href: "https://keyboard-gilt-sigma.vercel.app/",
     accent: "violet",
   },
+  {
+    name: "Scale per basso",
+    isNew: true,
+    description:
+      "Diteggiature ideali per suonare scale e modi sul basso a 4 corde",
+    href: "https://scale-per-basso.vercel.app/",
+    accent: "emerald",
+  },
 ];
 
 export default function Home() {

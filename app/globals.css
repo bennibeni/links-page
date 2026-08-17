@@ -210,6 +210,9 @@ a {
 .accent-fuchsia {
   --accent: #f472b6;
 }
+.accent-emerald {
+  --accent: #34d058;
+}
 
 @media (max-width: 640px) {
   .hero {
