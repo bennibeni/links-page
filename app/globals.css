@@ -213,6 +213,36 @@ a {
 .accent-emerald {
   --accent: #34d058;
 }
+.accent-crimson {
+  --accent: #da3633;
+}
+.accent-purple {
+  --accent: #a371f7;
+}
+.accent-magenta {
+  --accent: #e85aad;
+}
+.accent-turquoise {
+  --accent: #20c997;
+}
+.accent-gold {
+  --accent: #f2cc60;
+}
+.accent-coral {
+  --accent: #ff8a65;
+}
+.accent-lavender {
+  --accent: #c4a7e7;
+}
+.accent-mint {
+  --accent: #56d4a0;
+}
+.accent-azure {
+  --accent: #2f81f7;
+}
+.accent-bronze {
+  --accent: #b68d40;
+}
 
 @media (max-width: 640px) {
   .hero {

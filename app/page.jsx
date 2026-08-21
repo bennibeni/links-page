@@ -46,14 +46,14 @@ const projects = [
     description:
       "Gioco combinatorio ispirato alla genetica umana: genoma 4\u00d74, regola TTE-T4, fenotipo a 6 caratteri e avatar interattivo.",
     href: "https://specimen-t3oh.vercel.app/",
-    accent: "fuchsia",
+    accent: "teal",
   },
   {
     name: "Meiosi",
     description:
       "Simulazione interattiva della meiosi, dell’assortimento indipendente e della ricombinazione genetica.",
     href: "https://meiosi.vercel.app/",
-    accent: "teal",
+    accent: "fuchsia",
   },
   {
     name: "US Weather",
@@ -119,6 +119,14 @@ const projects = [
       "Diteggiature ideali per suonare scale e modi sul basso a 4 corde",
     href: "https://scale-per-basso.vercel.app/",
     accent: "emerald",
+  },
+  {
+    name: "Uno strano strumento musicale",
+    isNew: true,
+    description:
+      "Strumento musicale sperimentale con suoni generati proceduralmente.",
+    href: "https://p5-smoky.vercel.app/",
+    accent: "crimson",
   },
 ];
 
