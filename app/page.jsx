@@ -10,7 +10,7 @@ const projects = [
     name: "Crivello di Sundaram",
     description:
       "Esplorazione interattiva del crivello e della sequenza collegata.",
-    href: "https://sundaram-h7e2q9ex1-bennibenis-projects.vercel.app/",
+    href: "https://sundaram.vercel.app/",
     accent: "slate",
   },
   {
