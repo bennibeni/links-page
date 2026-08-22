@@ -106,9 +106,8 @@ const projects = [
   },
   {
     name: "Keyboard",
-    isNew: true,
     description:
-      "Esecutore di brani musicali (piano) con metronomo, controllo del tempo e cambio di tonalità",
+      "Esecutore di brani musicali (piano) con metronomo, controllo del tempo e cambio di tonalità.",
     href: "https://keyboard-gilt-sigma.vercel.app/",
     accent: "violet",
   },
@@ -127,6 +126,14 @@ const projects = [
       "Strumento musicale sperimentale con suoni generati proceduralmente.",
     href: "https://p5-smoky.vercel.app/",
     accent: "crimson",
+  },
+  {
+    name: "Vax",
+    isNew: true,
+    description:
+      "Simula la diffusione di un virus in una popolazione con vaccinazione.",
+    href: "https://vax-gilt.vercel.app//",
+    accent: "magenta",
   },
 ];
 
