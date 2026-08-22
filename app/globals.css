@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
-
 :root {
   --bg: #0d1117;
   --surface: #161b22;
@@ -19,6 +17,9 @@ html {
 }
 
 body {
+  background:
+    radial-gradient(circle at 15% 0%, rgb(88 166 255 / 8%), transparent 32rem),
+    var(--bg);
   color: var(--ink);
   font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
   margin: 0;
@@ -30,12 +31,17 @@ a {
   text-decoration: none;
 }
 
+a:focus-visible {
+  outline: 2px solid #58a6ff;
+  outline-offset: 4px;
+}
+
 .shell {
   display: flex;
   flex-direction: column;
   gap: clamp(36px, 5vw, 64px);
   margin: 0 auto;
-  max-width: 1120px;
+  max-width: 1180px;
   min-height: 100vh;
   padding: clamp(40px, 6vw, 80px) clamp(20px, 4vw, 48px) 80px;
 }
@@ -51,25 +57,16 @@ a {
 
 .eyebrow {
   color: var(--ink-dim);
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--font-ibm-plex-mono), monospace;
   font-size: 11px;
   letter-spacing: 0.14em;
   margin: 0 0 14px;
   text-transform: uppercase;
 }
 
-.eyebrow a {
-  color: #58a6ff;
-  text-transform: none;
-}
-
-.eyebrow a:hover {
-  text-decoration: underline;
-}
-
 .hero-title {
   color: var(--ink);
-  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-family: var(--font-space-grotesk), system-ui, sans-serif;
   font-size: clamp(2.8rem, 7vw, 6rem);
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -81,7 +78,7 @@ a {
   align-self: flex-end;
   color: var(--border-h);
   flex-shrink: 0;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--font-ibm-plex-mono), monospace;
   font-size: clamp(2.8rem, 6vw, 5.5rem);
   font-weight: 500;
   line-height: 1;
@@ -89,49 +86,72 @@ a {
 }
 
 .project-grid {
-  background: var(--border);
-  border: 1px solid var(--border);
-  border-radius: 8px;
   display: grid;
-  gap: 1px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  overflow: hidden;
+  gap: clamp(14px, 2vw, 20px);
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 
 .project-card {
-  background: var(--surface);
-  border-left: 3px solid var(--accent);
+  background: linear-gradient(145deg, var(--surface), rgb(22 27 34 / 88%));
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 14%);
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 22px 22px 22px 20px;
-  transition: background 120ms ease;
+  min-height: 170px;
+  overflow: hidden;
+  padding: 24px 22px 22px;
+  position: relative;
+  transition:
+    background 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
 }
 
 .project-card:hover {
-  background: var(--surface-h);
+  background: linear-gradient(145deg, var(--surface-h), var(--surface));
+  border-color: var(--accent);
+  box-shadow: 0 14px 32px rgb(0 0 0 / 32%);
+  transform: translateY(-4px);
+}
+
+.project-card:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgb(13 17 23), 0 0 0 5px var(--accent);
+  outline: none;
 }
 
 .card-name {
   align-items: center;
   color: var(--ink);
   display: flex;
-  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-family: var(--font-space-grotesk), system-ui, sans-serif;
   font-size: 1.05rem;
   font-weight: 600;
   gap: 8px;
   line-height: 1.2;
 }
 
-.new-badge {
-  background: #f2cc60;
+.status-badge {
   border-radius: 3px;
-  color: #3d2f00;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--font-ibm-plex-mono), monospace;
   font-size: 0.62rem;
   font-weight: 700;
   line-height: 1;
   padding: 4px 5px 3px;
+}
+
+.badge-new {
+  background: #3fb950;
+  color: #081c0e;
+}
+
+.badge-updated {
+  background: #58a6ff;
+  color: #07182d;
 }
 
 .card-description {
@@ -141,25 +161,12 @@ a {
   line-height: 1.55;
 }
 
-.open-link {
-  align-items: center;
-  color: var(--accent);
-  display: inline-flex;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 0.72rem;
-  font-weight: 500;
-  gap: 6px;
-  letter-spacing: 0.06em;
-  margin-top: 6px;
-  text-transform: uppercase;
-  transition: gap 120ms ease;
-}
-
-.open-link:hover {
-  gap: 10px;
-}
-.open-link.is-muted {
+.missing-url {
   color: var(--ink-dim);
+  font-family: var(--font-ibm-plex-mono), monospace;
+  font-size: 0.72rem;
+  margin-top: auto;
+  text-transform: uppercase;
 }
 
 .accent-blue {
@@ -198,9 +205,6 @@ a {
 .accent-violet {
   --accent: #bc8cff;
 }
-.accent-lime {
-  --accent: #7ee787;
-}
 .accent-rose {
   --accent: #ff7b72;
 }
@@ -219,27 +223,6 @@ a {
 .accent-magenta {
   --accent: #e85aad;
 }
-.accent-turquoise {
-  --accent: #20c997;
-}
-.accent-gold {
-  --accent: #f2cc60;
-}
-.accent-coral {
-  --accent: #ff8a65;
-}
-.accent-lavender {
-  --accent: #c4a7e7;
-}
-.accent-mint {
-  --accent: #56d4a0;
-}
-.accent-azure {
-  --accent: #2f81f7;
-}
-.accent-bronze {
-  --accent: #b68d40;
-}
 
 @media (max-width: 640px) {
   .hero {
@@ -253,5 +236,19 @@ a {
   }
   .project-grid {
     grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    min-height: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card {
+    transition: none;
+  }
+
+  .project-card:hover {
+    transform: none;
   }
 }
