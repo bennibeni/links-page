@@ -137,6 +137,14 @@ const rawProjects = [
     href: "https://vax-gilt.vercel.app/",
     accent: "magenta",
   },
+  {
+    name: "Catalogo problemi Rosalind",
+    isNew: true,
+    description:
+      "Raccolta di problemi di bioinformatica dal sito Rosalind, con soluzioni e spiegazioni.",
+    href: "https://rosalind-catalog.vercel.app/",
+    accent: "purple",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);

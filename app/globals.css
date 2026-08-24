@@ -120,7 +120,9 @@ a:focus-visible {
 
 .project-card:focus-visible {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgb(13 17 23), 0 0 0 5px var(--accent);
+  box-shadow:
+    0 0 0 3px rgb(13 17 23),
+    0 0 0 5px var(--accent);
   outline: none;
 }
 
@@ -222,6 +224,36 @@ a:focus-visible {
 }
 .accent-magenta {
   --accent: #e85aad;
+}
+.accent-purple {
+  --accent: #a371f7;
+}
+.accent-gold {
+  --accent: #eac54f;
+}
+.accent-lime {
+  --accent: #7ee787;
+}
+.accent-mint {
+  --accent: #56d4a6;
+}
+.accent-navy {
+  --accent: #3b5bdb;
+}
+.accent-maroon {
+  --accent: #b0323e;
+}
+.accent-coral {
+  --accent: #ff8966;
+}
+.accent-turquoise {
+  --accent: #2bb3a3;
+}
+.accent-chartreuse {
+  --accent: #b8e356;
+}
+.accent-plum {
+  --accent: #b083f0;
 }
 
 @media (max-width: 640px) {
