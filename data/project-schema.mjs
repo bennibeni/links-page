@@ -1,20 +1,30 @@
 export const PROJECT_ACCENTS = new Set([
   "amber",
   "blue",
+  "chartreuse",
+  "coral",
   "crimson",
   "cyan",
   "emerald",
   "fuchsia",
+  "gold",
   "green",
   "indigo",
+  "lime",
   "magenta",
+  "maroon",
+  "mint",
+  "navy",
   "orange",
   "pink",
+  "plum",
+  "purple",
   "red",
   "rose",
   "sky",
   "slate",
   "teal",
+  "turquoise",
   "violet",
   "yellow",
 ]);
@@ -30,7 +40,9 @@ const PROJECT_FIELDS = new Set([
 
 function requireText(value, field, index, errors) {
   if (typeof value !== "string" || !value.trim()) {
-    errors.push(`Progetto ${index + 1}: "${field}" deve essere un testo non vuoto.`);
+    errors.push(
+      `Progetto ${index + 1}: "${field}" deve essere un testo non vuoto.`,
+    );
     return "";
   }
 
@@ -62,21 +74,29 @@ function normalizeProject(project, index, errors) {
   const isUpdated = project.isUpdated === true;
 
   if (accent && !PROJECT_ACCENTS.has(accent)) {
-    errors.push(`Progetto "${name || index + 1}": accent "${accent}" inesistente.`);
+    errors.push(
+      `Progetto "${name || index + 1}": accent "${accent}" inesistente.`,
+    );
   }
 
   if (isNew && isUpdated) {
-    errors.push(`Progetto "${name || index + 1}": isNew e isUpdated non possono coesistere.`);
+    errors.push(
+      `Progetto "${name || index + 1}": isNew e isUpdated non possono coesistere.`,
+    );
   }
 
   if (href) {
     try {
       const url = new URL(href);
       if (!new Set(["http:", "https:"]).has(url.protocol)) {
-        errors.push(`Progetto "${name || index + 1}": href deve usare HTTP o HTTPS.`);
+        errors.push(
+          `Progetto "${name || index + 1}": href deve usare HTTP o HTTPS.`,
+        );
       }
       if (url.pathname.includes("//")) {
-        errors.push(`Progetto "${name || index + 1}": href contiene un doppio slash nel percorso.`);
+        errors.push(
+          `Progetto "${name || index + 1}": href contiene un doppio slash nel percorso.`,
+        );
       }
     } catch {
       errors.push(`Progetto "${name || index + 1}": href non è un URL valido.`);
@@ -112,7 +132,9 @@ export function validateProjects(input) {
     }
     names.add(normalizedName);
 
-    const normalizedUrl = project.href.replace(/\/$/, "").toLocaleLowerCase("en");
+    const normalizedUrl = project.href
+      .replace(/\/$/, "")
+      .toLocaleLowerCase("en");
     if (urls.has(normalizedUrl)) {
       errors.push(`URL duplicato: "${project.href}".`);
     }
