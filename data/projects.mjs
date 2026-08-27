@@ -72,7 +72,6 @@ const rawProjects = [
   },
   {
     name: "Teleport Chess",
-    isUpdated: true,
     description:
       "Scacchi a due giocatori con la variante teleport. Multiplayer via link, stato condiviso su Redis.",
     href: "https://teleport-chess.vercel.app/",
@@ -115,7 +114,6 @@ const rawProjects = [
   },
   {
     name: "Scale per basso",
-    isNew: true,
     description:
       "Diteggiature ideali per suonare scale e modi sul basso a 4 corde.",
     href: "https://scale-per-basso.vercel.app/",
@@ -123,7 +121,7 @@ const rawProjects = [
   },
   {
     name: "Uno strano strumento musicale",
-    isNew: true,
+    isUpdated: true,
     description:
       "Strumento musicale sperimentale con suoni generati proceduralmente.",
     href: "https://p5-smoky.vercel.app/",
