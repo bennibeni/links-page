@@ -145,6 +145,14 @@ const rawProjects = [
     href: "https://rosalind-catalog.vercel.app/",
     accent: "purple",
   },
+  {
+    name: "TinyGit",
+    isNew: true,
+    description:
+      "Interfaccia web per gestire repository Git locali, con visualizzazione dei commit e delle modifiche.",
+    href: "https://tinygit.vercel.app/",
+    accent: "gold",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
