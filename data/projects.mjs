@@ -155,6 +155,13 @@ const rawProjects = [
     href: "https://ulam-spiral-puzzle.vercel.app/",
     accent: "lime",
   },
+  {
+    name: "Cubie",
+    isNew: true,
+    description: "Modello del cubo di Rubik e solver dei sottogruppi.",
+    href: "https://cubie-ract.vercel.app/",
+    accent: "mint",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
