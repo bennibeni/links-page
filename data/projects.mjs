@@ -25,7 +25,7 @@ const rawProjects = [
   {
     name: "SET solitario",
     description:
-      "Mini-app per giocare a SET ed esplorare la struttura affine F\u2083\u2074 delle carte.",
+      "Mini-app per giocare a SET ed esplorare la struttura affine F₃⁴ delle carte.",
     href: "https://set-affine-game.vercel.app/",
     accent: "sky",
   },
@@ -38,7 +38,6 @@ const rawProjects = [
   },
   {
     name: "Cheat Stories",
-    isUpdated: true,
     description: "Racconti interattivi basati su scelte e conseguenze.",
     href: "https://cheat-stories.vercel.app/",
     accent: "rose",
@@ -46,7 +45,7 @@ const rawProjects = [
   {
     name: "Specimen",
     description:
-      "Gioco combinatorio ispirato alla genetica umana: genoma 4\u00d74, regola TTE-T4, fenotipo a 6 caratteri e avatar interattivo.",
+      "Gioco combinatorio ispirato alla genetica umana: genoma 4×4, regola TTE-T4, fenotipo a 6 caratteri e avatar interattivo.",
     href: "https://specimen-t3oh.vercel.app/",
     accent: "teal",
   },
@@ -79,7 +78,6 @@ const rawProjects = [
   },
   {
     name: "Artificial Cell Laboratory",
-    isUpdated: true,
     description:
       "Laboratorio interattivo per la simulazione di cellule artificiali.",
     href: "https://artificial-cell-laboratory.vercel.app/",
@@ -129,7 +127,6 @@ const rawProjects = [
   },
   {
     name: "Vax",
-    isNew: true,
     description:
       "Simula la diffusione di un virus in una popolazione con vaccinazione.",
     href: "https://vax-gilt.vercel.app/",
@@ -137,7 +134,6 @@ const rawProjects = [
   },
   {
     name: "Catalogo problemi Rosalind",
-    isNew: true,
     description:
       "Raccolta di problemi di bioinformatica dal sito Rosalind, con soluzioni e spiegazioni.",
     href: "https://rosalind-catalog.vercel.app/",
@@ -150,6 +146,14 @@ const rawProjects = [
       "Interfaccia web per gestire repository Git locali, con visualizzazione dei commit e delle modifiche.",
     href: "https://tinygit.vercel.app/",
     accent: "gold",
+  },
+  {
+    name: "Spirale di Ulam",
+    isNew: true,
+    description:
+      "Rompicapo interattivo: raccogli le 34 pietre-primo con un unico percorso sulla spirale di Ulam 12×12.",
+    href: "https://ulam-spiral-puzzle.vercel.app/",
+    accent: "lime",
   },
 ];
 
