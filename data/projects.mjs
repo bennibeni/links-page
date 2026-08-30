@@ -162,6 +162,14 @@ const rawProjects = [
     href: "https://cubie-ract.vercel.app/",
     accent: "mint",
   },
+  {
+    name: "Dodici",
+    isNew: true,
+    description:
+      "Atlante interattivo delle 12 tonalità maggiori: scale, arpeggi e campo armonico, più un test interattivo per mettersi alla prova.",
+    href: "https://dodici-vercel.vercel.app/",
+    accent: "coral",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);

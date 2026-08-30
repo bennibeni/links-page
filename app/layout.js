@@ -1,5 +1,5 @@
-import "./globals.css";
 import { IBM_Plex_Mono, Space_Grotesk } from "next/font/google";
+import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -16,6 +16,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata = {
   title: "I miei progetti",
   description: "Una pagina rapida per raggiungere le mie app pubbliche.",
+  icons: { icon: "/favicon.svg" },
 };
 
 export default function RootLayout({ children }) {
