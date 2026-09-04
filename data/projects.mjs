@@ -119,7 +119,6 @@ const rawProjects = [
   },
   {
     name: "Uno strano strumento musicale",
-    isUpdated: true,
     description:
       "Strumento musicale sperimentale con suoni generati proceduralmente.",
     href: "https://p5-smoky.vercel.app/",
@@ -141,7 +140,6 @@ const rawProjects = [
   },
   {
     name: "TinyGit",
-    isNew: true,
     description:
       "Interfaccia web per gestire repository Git locali, con visualizzazione dei commit e delle modifiche.",
     href: "https://tinygit.vercel.app/",
@@ -149,7 +147,6 @@ const rawProjects = [
   },
   {
     name: "Spirale di Ulam",
-    isNew: true,
     description:
       "Rompicapo interattivo: raccogli le 34 pietre-primo con un unico percorso sulla spirale di Ulam 12×12.",
     href: "https://ulam-spiral-puzzle.vercel.app/",
@@ -157,18 +154,23 @@ const rawProjects = [
   },
   {
     name: "Cubie",
-    isNew: true,
     description: "Modello del cubo di Rubik e solver dei sottogruppi.",
     href: "https://cubie-ract.vercel.app/",
     accent: "mint",
   },
   {
     name: "Dodici",
-    isNew: true,
     description:
       "Atlante interattivo delle 12 tonalità maggiori: scale, arpeggi e campo armonico, più un test interattivo per mettersi alla prova.",
     href: "https://dodici-vercel.vercel.app/",
     accent: "coral",
+  },
+  {
+    name: "Genogiallo",
+    isNew: true,
+    description: "Un'indagine genetica.",
+    href: "https://genogiallo.vercel.app/",
+    accent: "turquoise",
   },
 ];
 
