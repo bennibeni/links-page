@@ -180,6 +180,14 @@ const rawProjects = [
     href: "https://scale-fingering-next-a7e7.vercel.app/scale",
     accent: "chartreuse",
   },
+  {
+    name: "Paradossi bayesiani",
+    isNew: true,
+    description:
+      "Otto esperimenti mentali che mostrano come prove, selezione e convinzioni iniziali trasformino ciò che sembra ovvio.",
+    href: "https://paradossi-bayesiani.vercel.app/",
+    accent: "plum",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
