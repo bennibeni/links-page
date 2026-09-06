@@ -172,6 +172,14 @@ const rawProjects = [
     href: "https://genogiallo.vercel.app/",
     accent: "turquoise",
   },
+  {
+    name: "Scale & Arpeggi al Pianoforte",
+    isNew: true,
+    description:
+      "Un percorso pratico per studiare scale, arpeggi e diteggiature al pianoforte.",
+    href: "https://scale-fingering-next-a7e7.vercel.app/scale",
+    accent: "chartreuse",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
