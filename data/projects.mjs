@@ -185,7 +185,7 @@ const rawProjects = [
     isNew: true,
     description:
       "Otto esperimenti mentali che mostrano come prove, selezione e convinzioni iniziali trasformino ciò che sembra ovvio.",
-    href: "https://paradossi-bayesiani.vercel.app/",
+    href: "https://bayes-paradoxes.vercel.app/",
     accent: "plum",
   },
 ];
