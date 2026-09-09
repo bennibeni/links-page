@@ -188,6 +188,14 @@ const rawProjects = [
     href: "https://bayes-paradoxes.vercel.app/",
     accent: "plum",
   },
+  {
+    name: "Ascensore",
+    isNew: true,
+    description:
+      "Simulazione di un ascensore con più piani e utenti, ma siamo solo all'inizio.",
+    href: "https://elevator-simulator-livid.vercel.app/",
+    accent: "aqua",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
