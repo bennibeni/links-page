@@ -194,7 +194,7 @@ const rawProjects = [
     description:
       "Simulazione di un ascensore con più piani e utenti, ma siamo solo all'inizio.",
     href: "https://elevator-simulator-livid.vercel.app/",
-    accent: "aqua",
+    accent: "blue",
   },
 ];
 

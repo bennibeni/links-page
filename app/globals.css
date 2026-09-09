@@ -255,36 +255,6 @@ a:focus-visible {
 .accent-plum {
   --accent: #b083f0;
 }
-.accent-aqua {
-  --accent: #22d3ee;
-}
-.accent-brown {
-  --accent: #c08457;
-}
-.accent-bronze {
-  --accent: #cd7f32;
-}
-.accent-cobalt {
-  --accent: #2563eb;
-}
-.accent-copper {
-  --accent: #b87333;
-}
-.accent-forest {
-  --accent: #228b22;
-}
-.accent-lavender {
-  --accent: #c4b5fd;
-}
-.accent-olive {
-  --accent: #a3a322;
-}
-.accent-scarlet {
-  --accent: #ef4444;
-}
-.accent-silver {
-  --accent: #c0c0c0;
-}
 
 @media (max-width: 640px) {
   .hero {
