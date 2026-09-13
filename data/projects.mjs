@@ -167,14 +167,12 @@ const rawProjects = [
   },
   {
     name: "Genogiallo",
-    isNew: true,
     description: "Un'indagine genetica.",
     href: "https://genogiallo.vercel.app/",
     accent: "turquoise",
   },
   {
     name: "Scale & Arpeggi al Pianoforte",
-    isNew: true,
     description:
       "Un percorso pratico per studiare scale, arpeggi e diteggiature al pianoforte.",
     href: "https://scale-fingering-next-a7e7.vercel.app/scale",
@@ -182,7 +180,6 @@ const rawProjects = [
   },
   {
     name: "Paradossi bayesiani",
-    isNew: true,
     description:
       "Otto esperimenti mentali che mostrano come prove, selezione e convinzioni iniziali trasformino ciò che sembra ovvio.",
     href: "https://bayes-paradoxes.vercel.app/",
@@ -195,6 +192,13 @@ const rawProjects = [
       "Simulazione di un ascensore con più piani e utenti, ma siamo solo all'inizio.",
     href: "https://elevator-simulator-livid.vercel.app/",
     accent: "blue",
+  },
+  {
+    name: "Malaria Arcade",
+    isNew: true,
+    description: "Gioco arcade basato sugli esami diagnostici.",
+    href: "https://malaria-arcade.vercel.app/",
+    accent: "slate",
   },
 ];
 
