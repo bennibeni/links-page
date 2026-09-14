@@ -200,6 +200,13 @@ const rawProjects = [
     href: "https://malaria-arcade.vercel.app/",
     accent: "slate",
   },
+  {
+    name: "Una macchina imperfetta",
+    description:
+      "Sfida una macchina istruita per giocare a tris bene ma non benissimo.",
+    href: "https://menace-simulator.vercel.app/",
+    accent: "red",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
