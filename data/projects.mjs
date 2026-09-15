@@ -202,6 +202,7 @@ const rawProjects = [
   },
   {
     name: "Una macchina imperfetta",
+    isNew: true,
     description:
       "Sfida una macchina istruita per giocare a tris bene ma non benissimo.",
     href: "https://menace-simulator.vercel.app/",
