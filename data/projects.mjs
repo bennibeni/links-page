@@ -187,7 +187,6 @@ const rawProjects = [
   },
   {
     name: "Ascensore",
-    isNew: true,
     description:
       "Simulazione di un ascensore con più piani e utenti, ma siamo solo all'inizio.",
     href: "https://elevator-simulator-livid.vercel.app/",
@@ -207,6 +206,13 @@ const rawProjects = [
       "Sfida una macchina istruita per giocare a tris bene ma non benissimo.",
     href: "https://menace-simulator.vercel.app/",
     accent: "red",
+  },
+  {
+    name: "Parenti serpenti",
+    isNew: true,
+    description: "Un gioco di deduzione genealogica.",
+    href: "https://parenti-serpenti.vercel.app/",
+    accent: "sky",
   },
 ];
 
