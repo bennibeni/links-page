@@ -147,6 +147,7 @@ const rawProjects = [
   },
   {
     name: "Spirale di Ulam",
+    isUpdated: true,
     description:
       "Rompicapo interattivo: raccogli le 34 pietre-primo con un unico percorso sulla spirale di Ulam 12×12.",
     href: "https://ulam-spiral-puzzle.vercel.app/",
