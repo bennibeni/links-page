@@ -153,9 +153,10 @@ const rawProjects = [
     accent: "lime",
   },
   {
-    name: "Cubie",
-    description: "Modello del cubo di Rubik e solver dei sottogruppi.",
-    href: "https://cubie-ract.vercel.app/",
+    name: "Baby Mastermind",
+    isNew: true,
+    description: "Trova la combinazione vincente.",
+    href: "https://baby-mastermind.vercel.app/",
     accent: "mint",
   },
   {
