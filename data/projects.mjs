@@ -196,14 +196,12 @@ const rawProjects = [
   },
   {
     name: "Malaria Arcade",
-    isNew: true,
     description: "Gioco arcade basato sugli esami diagnostici.",
     href: "https://malaria-arcade.vercel.app/",
     accent: "slate",
   },
   {
     name: "Una macchina imperfetta",
-    isNew: true,
     description:
       "Sfida una macchina istruita per giocare a tris bene ma non benissimo.",
     href: "https://menace-simulator.vercel.app/",
@@ -211,10 +209,16 @@ const rawProjects = [
   },
   {
     name: "Parenti serpenti",
-    isNew: true,
     description: "Un gioco di deduzione genealogica.",
     href: "https://parenti-serpenti.vercel.app/",
     accent: "sky",
+  },
+  {
+    name: "Il Maggiolino",
+    isNew: true,
+    description: "Laboratorio di robotica interattivo.",
+    href: "https://il-maggiolino.vercel.app/",
+    accent: "yellow",
   },
 ];
 
