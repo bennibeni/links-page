@@ -220,6 +220,13 @@ const rawProjects = [
     href: "https://il-maggiolino.vercel.app/",
     accent: "yellow",
   },
+  {
+    name: "Ricerca di Accordi",
+    isNew: true,
+    description: "Strumento per cercare e ascoltare accordi musicali.",
+    href: "https://accordi-three.vercel.app/",
+    accent: "rose",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
