@@ -215,17 +215,22 @@ const rawProjects = [
   },
   {
     name: "Il Maggiolino",
-    isNew: true,
     description: "Laboratorio di robotica interattivo.",
     href: "https://il-maggiolino.vercel.app/",
     accent: "yellow",
   },
   {
     name: "Ricerca di Accordi",
-    isNew: true,
     description: "Strumento per cercare e ascoltare accordi musicali.",
     href: "https://accordi-three.vercel.app/",
     accent: "rose",
+  },
+  {
+    name: "Che cosa decide le mie partite?",
+    isNew: true,
+    description: "Machine Learning Lab basato su archivio scacchi",
+    href: "https://scacchi-next.vercel.app/",
+    accent: "teal",
   },
 ];
 
