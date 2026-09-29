@@ -227,10 +227,23 @@ const rawProjects = [
   },
   {
     name: "Che cosa decide le mie partite?",
-    isNew: true,
     description: "Machine Learning Lab basato su archivio scacchi",
     href: "https://scacchi-next.vercel.app/",
     accent: "teal",
+  },
+  {
+    name: "Conigli mortali",
+    isNew: true,
+    description: "Una popolazione di conigli in giardino",
+    href: "https://conigli-mortali.vercel.app/",
+    accent: "fuchsia",
+  },
+  {
+    name: "Il quaderno di Mendel",
+    isNew: true,
+    description: "Le leggi dell’ereditarietà, una scoperta alla volta.",
+    href: "https://quaderni-di-mendel.vercel.app/",
+    accent: "pink",
   },
 ];
 
