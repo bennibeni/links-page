@@ -47,14 +47,14 @@ const rawProjects = [
     description:
       "Gioco combinatorio ispirato alla genetica umana: genoma 4×4, regola TTE-T4, fenotipo a 6 caratteri e avatar interattivo.",
     href: "https://specimen-t3oh.vercel.app/",
-    accent: "teal",
+    accent: "fuchsia",
   },
   {
     name: "Meiosi",
     description:
       "Simulazione interattiva della meiosi, dell’assortimento indipendente e della ricombinazione genetica.",
     href: "https://meiosi.vercel.app/",
-    accent: "fuchsia",
+    accent: "teal",
   },
   {
     name: "US Weather",
@@ -229,14 +229,14 @@ const rawProjects = [
     name: "Che cosa decide le mie partite?",
     description: "Machine Learning Lab basato su archivio scacchi",
     href: "https://scacchi-next.vercel.app/",
-    accent: "teal",
+    accent: "fuchsia",
   },
   {
     name: "Conigli mortali",
     isNew: true,
     description: "Una popolazione di conigli in giardino",
     href: "https://conigli-mortali.vercel.app/",
-    accent: "fuchsia",
+    accent: "teal",
   },
   {
     name: "Il quaderno di Mendel",
@@ -244,6 +244,12 @@ const rawProjects = [
     description: "Le leggi dell’ereditarietà, una scoperta alla volta.",
     href: "https://quaderni-di-mendel.vercel.app/",
     accent: "pink",
+  },
+  {
+    name: "Il puzzle della famiglia giapponese",
+    description: "Gioca - Esplora - Approfondisci.",
+    href: "https://river-forest.vercel.app/",
+    accent: "green",
   },
 ];
 
