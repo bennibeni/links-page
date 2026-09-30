@@ -247,6 +247,7 @@ const rawProjects = [
   },
   {
     name: "Il puzzle della famiglia giapponese",
+    isNew: true,
     description: "Gioca - Esplora - Approfondisci.",
     href: "https://river-forest.vercel.app/",
     accent: "green",
