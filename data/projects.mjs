@@ -147,7 +147,6 @@ const rawProjects = [
   },
   {
     name: "Spirale di Ulam",
-    isUpdated: true,
     description:
       "Rompicapo interattivo: raccogli le 34 pietre-primo con un unico percorso sulla spirale di Ulam 12×12.",
     href: "https://ulam-spiral-puzzle.vercel.app/",
@@ -155,7 +154,6 @@ const rawProjects = [
   },
   {
     name: "Baby Mastermind",
-    isNew: true,
     description: "Trova la combinazione vincente.",
     href: "https://baby-mastermind.vercel.app/",
     accent: "mint",
@@ -233,14 +231,12 @@ const rawProjects = [
   },
   {
     name: "Conigli mortali",
-    isNew: true,
     description: "Una popolazione di conigli in giardino",
     href: "https://conigli-mortali.vercel.app/",
     accent: "teal",
   },
   {
     name: "Il quaderno di Mendel",
-    isNew: true,
     description: "Le leggi dell’ereditarietà, una scoperta alla volta.",
     href: "https://quaderni-di-mendel.vercel.app/",
     accent: "pink",
@@ -251,6 +247,13 @@ const rawProjects = [
     description: "Gioca - Esplora - Approfondisci.",
     href: "https://river-forest.vercel.app/",
     accent: "green",
+  },
+  {
+    name: "Alveare (ispirato a Hex FRVR)",
+    isNew: true,
+    description: "Gioca come un esperto con i suggerimenti dell'AI.",
+    href: "https://alveare-six.vercel.app/",
+    accent: "indigo",
   },
 ];
 
