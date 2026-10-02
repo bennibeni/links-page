@@ -255,6 +255,13 @@ const rawProjects = [
     href: "https://alveare-six.vercel.app/",
     accent: "indigo",
   },
+  {
+    name: "ER",
+    isNew: true,
+    description: "Vesti i panni del Primario in questo incubo cardiovascolare.",
+    href: "https://er-umber.vercel.app/",
+    accent: "amber",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
