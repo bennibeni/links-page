@@ -81,13 +81,13 @@ const rawProjects = [
     description:
       "Laboratorio interattivo per la simulazione di cellule artificiali.",
     href: "https://artificial-cell-laboratory.vercel.app/",
-    accent: "amber",
+    accent: "cyan",
   },
   {
     name: "I Gemelli",
     description: "Gemelli monozigoti, sviluppo differente.",
     href: "https://monozygotic-twins-development.vercel.app/",
-    accent: "cyan",
+    accent: "amber",
   },
   {
     name: "Library (private)",
@@ -243,23 +243,28 @@ const rawProjects = [
   },
   {
     name: "Il puzzle della famiglia giapponese",
-    isNew: true,
     description: "Gioca - Esplora - Approfondisci.",
     href: "https://river-forest.vercel.app/",
     accent: "green",
   },
   {
     name: "Alveare (ispirato a Hex FRVR)",
-    isNew: true,
+    isUpdated: true,
     description: "Gioca come un esperto con i suggerimenti dell'AI.",
     href: "https://alveare-six.vercel.app/",
     accent: "indigo",
   },
   {
     name: "ER",
-    isNew: true,
     description: "Vesti i panni del Primario in questo incubo cardiovascolare.",
     href: "https://er-umber.vercel.app/",
+    accent: "cyan",
+  },
+  {
+    name: "Api matematiche",
+    isInProgress: true,
+    description: "Strane somiglianze tra le api e la serie di Fibonacci.",
+    href: "https://api-matematiche.vercel.app/",
     accent: "amber",
   },
 ];

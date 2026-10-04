@@ -36,6 +36,7 @@ const PROJECT_FIELDS = new Set([
   "accent",
   "isNew",
   "isUpdated",
+  "isInProgress",
 ]);
 
 function requireText(value, field, index, errors) {
@@ -72,6 +73,7 @@ function normalizeProject(project, index, errors) {
   const accent = requireText(project.accent, "accent", index, errors);
   const isNew = project.isNew === true;
   const isUpdated = project.isUpdated === true;
+  const isInProgress = project.isInProgress === true;
 
   if (accent && !PROJECT_ACCENTS.has(accent)) {
     errors.push(
@@ -110,6 +112,7 @@ function normalizeProject(project, index, errors) {
     accent,
     ...(isNew ? { isNew: true } : {}),
     ...(isUpdated ? { isUpdated: true } : {}),
+    ...(isInProgress ? { isInProgress: true } : {}),
   });
 }
 

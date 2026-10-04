@@ -156,6 +156,11 @@ a:focus-visible {
   color: #07182d;
 }
 
+.badge-in-progress {
+  background: #f2cc60;
+  color: #241a00;
+}
+
 .card-description {
   color: var(--ink-dim);
   flex: 1;

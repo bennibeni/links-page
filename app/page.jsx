@@ -19,6 +19,9 @@ function ProjectCard({ project }) {
         {project.isUpdated ? (
           <span className="status-badge badge-updated">Updated!</span>
         ) : null}
+        {project.isInProgress ? (
+          <span className="status-badge badge-in-progress">In Progress</span>
+        ) : null}
       </span>
       <span className="card-description">{project.description}</span>
       {!project.href ? (
