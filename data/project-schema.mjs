@@ -29,14 +29,26 @@ export const PROJECT_ACCENTS = new Set([
   "yellow",
 ]);
 
+export const PROJECT_TOPICS = [
+  "Matematica",
+  "Biologia e genetica",
+  "Giochi",
+  "Musica",
+  "Tecnologia",
+  "Simulazioni",
+  "Accesso limitato",
+];
+
 const PROJECT_FIELDS = new Set([
   "name",
   "description",
   "href",
   "accent",
+  "topic",
   "isNew",
   "isUpdated",
   "isInProgress",
+  "isPrivate",
 ]);
 
 function requireText(value, field, index, errors) {
@@ -71,13 +83,21 @@ function normalizeProject(project, index, errors) {
   );
   const href = requireText(project.href, "href", index, errors);
   const accent = requireText(project.accent, "accent", index, errors);
+  const topic = requireText(project.topic, "topic", index, errors);
   const isNew = project.isNew === true;
   const isUpdated = project.isUpdated === true;
   const isInProgress = project.isInProgress === true;
+  const isPrivate = project.isPrivate === true;
 
   if (accent && !PROJECT_ACCENTS.has(accent)) {
     errors.push(
       `Progetto "${name || index + 1}": accent "${accent}" inesistente.`,
+    );
+  }
+
+  if (topic && !PROJECT_TOPICS.includes(topic)) {
+    errors.push(
+      `Progetto "${name || index + 1}": argomento "${topic}" inesistente.`,
     );
   }
 
@@ -110,9 +130,11 @@ function normalizeProject(project, index, errors) {
     description,
     href,
     accent,
+    topic,
     ...(isNew ? { isNew: true } : {}),
     ...(isUpdated ? { isUpdated: true } : {}),
     ...(isInProgress ? { isInProgress: true } : {}),
+    ...(isPrivate ? { isPrivate: true } : {}),
   });
 }
 

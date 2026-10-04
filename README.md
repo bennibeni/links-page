@@ -16,9 +16,11 @@ Poi apri [http://localhost:3000](http://localhost:3000).
 ## Aggiornare i link
 
 Modifica l'array `rawProjects` in `data/projects.mjs`.
-Ogni progetto ha i campi obbligatori `name`, `description`, `href` e
-`accent`. I campi facoltativi `isNew` e `isUpdated` mostrano il relativo
-badge nella scheda.
+Ogni progetto ha i campi obbligatori `name`, `description`, `href`, `accent`
+e `topic`. La pagina raggruppa automaticamente i progetti per argomento.
+Gli argomenti ammessi sono definiti in `data/project-schema.mjs`.
+I campi facoltativi `isNew`, `isUpdated`, `isInProgress` e `isPrivate` mostrano
+il relativo badge nella scheda.
 
 Gli accent disponibili sono definiti in `app/globals.css` dalle classi
 `.accent-*`.
