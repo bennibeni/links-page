@@ -305,7 +305,7 @@ const rawProjects = [
   {
     name: "Api matematiche",
     topic: "Matematica",
-    isInProgress: true,
+    isNew: true,
     description: "Strane somiglianze tra le api e la serie di Fibonacci.",
     href: "https://api-matematiche.vercel.app/",
     accent: "amber",
