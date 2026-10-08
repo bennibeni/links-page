@@ -310,6 +310,14 @@ const rawProjects = [
     href: "https://api-matematiche.vercel.app/",
     accent: "amber",
   },
+  {
+    name: "Menta o Cumino?",
+    topic: "Giochi",
+    isNew: true,
+    description: "Un gioco da Nobel.",
+    href: "https://menta-o-cumino.vercel.app/",
+    accent: "orange",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
