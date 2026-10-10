@@ -318,6 +318,13 @@ const rawProjects = [
     href: "https://menta-o-cumino.vercel.app/",
     accent: "orange",
   },
+  {
+    name: "Quantum orbitals",
+    topic: "Fisica e Chimica",
+    description: "Visualizzazione degli orbitali quantistici negli atomi.",
+    href: "https://quantum-orbitals-latn.vercel.app/",
+    accent: "violet",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
