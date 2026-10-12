@@ -321,9 +321,18 @@ const rawProjects = [
   {
     name: "Quantum orbitals",
     topic: "Fisica e Chimica",
+    isNew: true,
     description: "Visualizzazione degli orbitali quantistici negli atomi.",
     href: "https://quantum-orbitals-latn.vercel.app/",
     accent: "violet",
+  },
+  {
+    name: "Cubie",
+    topic: "Giochi",
+    isNew: true,
+    description: "Il classico gioco del cubo di Rubik.",
+    href: "https://cubie-ract.vercel.app/",
+    accent: "emerald",
   },
 ];
 

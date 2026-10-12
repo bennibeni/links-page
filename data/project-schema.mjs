@@ -36,6 +36,7 @@ export const PROJECT_TOPICS = [
   "Musica",
   "Tecnologia",
   "Simulazioni",
+  "Fisica e Chimica",
   "Accesso limitato",
 ];
 
