@@ -188,7 +188,7 @@ const rawProjects = [
     name: "Dodici",
     topic: "Musica",
     description:
-      "Atlante interattivo delle 12 tonalità maggiori: scale, arpeggi e campo armonico, più un test interattivo per mettersi alla prova.",
+      "Atlante interattivo delle 12 tonalità maggiori e minori naturali: scale, arpeggi e campo armonico, più un test interattivo per mettersi alla prova.",
     href: "https://dodici-vercel.vercel.app/",
     accent: "coral",
   },
