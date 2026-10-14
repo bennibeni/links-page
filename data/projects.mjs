@@ -290,7 +290,6 @@ const rawProjects = [
   {
     name: "Alveare (ispirato a Hex FRVR)",
     topic: "Giochi",
-    isUpdated: true,
     description: "Gioca come un esperto con i suggerimenti dell'AI.",
     href: "https://alveare-six.vercel.app/",
     accent: "indigo",
@@ -305,7 +304,6 @@ const rawProjects = [
   {
     name: "Api matematiche",
     topic: "Matematica",
-    isNew: true,
     description: "Strane somiglianze tra le api e la serie di Fibonacci.",
     href: "https://api-matematiche.vercel.app/",
     accent: "amber",
@@ -313,7 +311,6 @@ const rawProjects = [
   {
     name: "Menta o Cumino?",
     topic: "Giochi",
-    isNew: true,
     description: "Un gioco da Nobel.",
     href: "https://menta-o-cumino.vercel.app/",
     accent: "orange",
@@ -333,6 +330,14 @@ const rawProjects = [
     description: "Il classico gioco del cubo di Rubik.",
     href: "https://cubie-ract.vercel.app/",
     accent: "emerald",
+  },
+  {
+    name: "Tre anelli",
+    topic: "Giochi",
+    isNew: true,
+    description: "Un gioco sugli omomorfismi orientati.",
+    href: "https://tre-anelli.vercel.app/",
+    accent: "crimson",
   },
 ];
 
