@@ -318,7 +318,6 @@ const rawProjects = [
   {
     name: "Quantum orbitals",
     topic: "Fisica e Chimica",
-    isNew: true,
     description: "Visualizzazione degli orbitali quantistici negli atomi.",
     href: "https://quantum-orbitals-latn.vercel.app/",
     accent: "violet",
@@ -326,7 +325,6 @@ const rawProjects = [
   {
     name: "Cubie",
     topic: "Giochi",
-    isNew: true,
     description: "Il classico gioco del cubo di Rubik.",
     href: "https://cubie-ract.vercel.app/",
     accent: "emerald",
@@ -338,6 +336,15 @@ const rawProjects = [
     description: "Un gioco sugli omomorfismi orientati.",
     href: "https://tre-anelli.vercel.app/",
     accent: "crimson",
+  },
+  {
+    name: "Falchi e Colombe",
+    isNew: true,
+    topic: "Matematica",
+    description:
+      "Esperimenti sull'equilibrio di Nash e strategie evolutivamente stabili.",
+    href: "https://falchi-e-colombe.vercel.app/",
+    accent: "magenta",
   },
 ];
 
