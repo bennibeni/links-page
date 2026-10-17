@@ -354,6 +354,15 @@ const rawProjects = [
     href: "https://moderna-gamma.vercel.app/",
     accent: "orange",
   },
+  {
+    name: "Castell",
+    isNew: true,
+    topic: "Simulazioni",
+    description:
+      "Simulazione 3D interattiva di un castell 4 de 8 con 90 atleti.",
+    href: "https://castell-lake.vercel.app/",
+    accent: "purple",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
