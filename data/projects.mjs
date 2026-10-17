@@ -346,6 +346,14 @@ const rawProjects = [
     href: "https://falchi-e-colombe.vercel.app/",
     accent: "magenta",
   },
+  {
+    name: "Moderna",
+    topic: "Accesso limitato",
+    isPrivate: true,
+    description: "Notizie dal Nasdaq.",
+    href: "https://moderna-gamma.vercel.app/",
+    accent: "orange",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
