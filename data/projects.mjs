@@ -332,14 +332,12 @@ const rawProjects = [
   {
     name: "Tre anelli",
     topic: "Giochi",
-    isNew: true,
     description: "Un gioco sugli omomorfismi orientati.",
     href: "https://tre-anelli.vercel.app/",
     accent: "crimson",
   },
   {
     name: "Falchi e Colombe",
-    isNew: true,
     topic: "Matematica",
     description:
       "Esperimenti sull'equilibrio di Nash e strategie evolutivamente stabili.",
@@ -362,6 +360,14 @@ const rawProjects = [
       "Simulazione 3D interattiva di un castell 4 de 8 con 90 atleti.",
     href: "https://castell-lake.vercel.app/",
     accent: "purple",
+  },
+  {
+    name: "Le corde della chitarra",
+    isNew: true,
+    topic: "Musica",
+    description: "Vibrazioni, suono e campionamento.",
+    href: "https://le-corde-della-chitarra.vercel.app/",
+    accent: "gold",
   },
 ];
 
