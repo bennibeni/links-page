@@ -375,6 +375,14 @@ const rawProjects = [
     href: "https://alleli-in-evoluzione.vercel.app/",
     accent: "lime",
   },
+  {
+    name: "Alice e Bob al ristorante",
+    isNew: true,
+    topic: "Fisica e Chimica",
+    description: "il teorema di Bell raccontato una cena alla volta.",
+    href: "https://alice-e-bob-al-ristorante.vercel.app/",
+    accent: "mint",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
