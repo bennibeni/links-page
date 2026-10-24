@@ -354,7 +354,6 @@ const rawProjects = [
   },
   {
     name: "Castell",
-    isNew: true,
     topic: "Simulazioni",
     description:
       "Simulazione 3D interattiva di un castell 4 de 8 con 90 atleti.",
@@ -363,11 +362,18 @@ const rawProjects = [
   },
   {
     name: "Le corde della chitarra",
-    isNew: true,
     topic: "Musica",
     description: "Vibrazioni, suono e campionamento.",
     href: "https://le-corde-della-chitarra.vercel.app/",
     accent: "gold",
+  },
+  {
+    name: "Alleli in evoluzione",
+    isNew: true,
+    topic: "Biologia e genetica",
+    description: "Quando la diversità si mantiene e quando scompare?",
+    href: "https://alleli-in-evoluzione.vercel.app/",
+    accent: "lime",
   },
 ];
 
