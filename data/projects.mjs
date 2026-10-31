@@ -369,7 +369,6 @@ const rawProjects = [
   },
   {
     name: "Alleli in evoluzione",
-    isNew: true,
     topic: "Biologia e genetica",
     description: "Quando la diversità si mantiene e quando scompare?",
     href: "https://alleli-in-evoluzione.vercel.app/",
@@ -382,6 +381,14 @@ const rawProjects = [
     description: "il teorema di Bell raccontato una cena alla volta.",
     href: "https://alice-e-bob-al-ristorante.vercel.app/",
     accent: "mint",
+  },
+  {
+    name: "Garage",
+    isNew: true,
+    topic: "Simulazioni",
+    description: "Un garage come quello vicino alla stazione Termini.",
+    href: "https://garage-ebon-one.vercel.app/",
+    accent: "coral",
   },
 ];
 
