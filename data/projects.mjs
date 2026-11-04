@@ -397,6 +397,13 @@ const rawProjects = [
     href: "https://hackenbush-peach.vercel.app/",
     accent: "turquoise",
   },
+  {
+    name: "LK-280",
+    topic: "Accesso limitato",
+    description: "Manuale Casio LK-280.",
+    href: "https://lk-280.vercel.app/",
+    accent: "orange",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
