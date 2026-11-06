@@ -398,6 +398,13 @@ const rawProjects = [
     accent: "turquoise",
   },
   {
+    name: "Modelli 3D",
+    topic: "Accesso limitato",
+    description: "Creating, transforming and editing your models a breeze.",
+    href: "https://modelli-3d.vercel.app/",
+    accent: "orange",
+  },
+  {
     name: "LK-280",
     topic: "Accesso limitato",
     description: "Manuale Casio LK-280.",
