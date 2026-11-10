@@ -383,7 +383,6 @@ const rawProjects = [
   },
   {
     name: "Garage",
-    isNew: true,
     topic: "Simulazioni",
     description: "Un garage come quello vicino alla stazione Termini.",
     href: "https://garage-ebon-one.vercel.app/",
@@ -391,7 +390,6 @@ const rawProjects = [
   },
   {
     name: "Hackenbush",
-    isNew: true,
     topic: "Giochi",
     description: "Tu sei Blu. Il computer è Rosso. Ogni partita, nuove torri.",
     href: "https://hackenbush-peach.vercel.app/",
@@ -410,6 +408,14 @@ const rawProjects = [
     description: "Manuale Casio LK-280.",
     href: "https://lk-280.vercel.app/",
     accent: "orange",
+  },
+  {
+    name: "Boogie Woogie",
+    isNew: true,
+    topic: "Musica",
+    description: "Lascia andare il boogie.",
+    href: "https://boogie-woogie-chi.vercel.app/",
+    accent: "chartreuse",
   },
 ];
 
