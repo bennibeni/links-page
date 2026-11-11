@@ -417,6 +417,13 @@ const rawProjects = [
     href: "https://boogie-woogie-chi.vercel.app/",
     accent: "chartreuse",
   },
+  {
+    name: "Cose",
+    topic: "Accesso limitato",
+    description: "Ogni cosa, al suo posto.",
+    href: "https://archivio-cose.vercel.app/",
+    accent: "orange",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
