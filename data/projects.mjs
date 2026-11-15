@@ -411,7 +411,6 @@ const rawProjects = [
   },
   {
     name: "Boogie Woogie",
-    isNew: true,
     topic: "Musica",
     description: "Lascia andare il boogie.",
     href: "https://boogie-woogie-chi.vercel.app/",
@@ -423,6 +422,22 @@ const rawProjects = [
     description: "Ogni cosa, al suo posto.",
     href: "https://archivio-cose.vercel.app/",
     accent: "orange",
+  },
+  {
+    name: "Dashboard Realtime",
+    isNew: true,
+    topic: "Tecnologia",
+    description: "Dashboard interattiva con sette sezioni indipendenti.",
+    href: "https://react-realtime-demo.vercel.app/",
+    accent: "plum",
+  },
+  {
+    name: "Radar Terrazzo Ciampino",
+    isNew: true,
+    topic: "Tecnologia",
+    description: "Il traffico aereo in tempo reale dal mio terrazzo.",
+    href: "https://radar-terrazzo-ciampino.vercel.app/",
+    accent: "blue",
   },
 ];
 
