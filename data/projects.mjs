@@ -439,6 +439,14 @@ const rawProjects = [
     href: "https://radar-terrazzo-ciampino.vercel.app/",
     accent: "blue",
   },
+  {
+    name: "Archivio di classe",
+    topic: "Accesso limitato",
+    description:
+      "Un posto per ritrovare i compagni e verificare le fonti che li riguardano.",
+    href: "https://archivio-di-classe.vercel.app/",
+    accent: "orange",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
