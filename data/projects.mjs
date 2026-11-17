@@ -454,6 +454,13 @@ const rawProjects = [
     href: "https://mx-master-4.vercel.app/",
     accent: "orange",
   },
+  {
+    name: "Panasonic SC-HC35",
+    topic: "Accesso limitato",
+    description: "Guida all’uso.",
+    href: "https://panasonicsc-hc35.vercel.app/",
+    accent: "orange",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
