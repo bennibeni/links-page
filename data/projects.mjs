@@ -396,7 +396,7 @@ const rawProjects = [
     accent: "turquoise",
   },
   {
-    name: "Modelli 3D",
+    name: "Modelli 3D (private)",
     topic: "Accesso limitato",
     description: "Creating, transforming and editing your models a breeze.",
     href: "https://modelli-3d.vercel.app/",
@@ -417,7 +417,7 @@ const rawProjects = [
     accent: "chartreuse",
   },
   {
-    name: "Cose",
+    name: "Cose (private)",
     topic: "Accesso limitato",
     description: "Ogni cosa, al suo posto.",
     href: "https://archivio-cose.vercel.app/",
@@ -445,6 +445,13 @@ const rawProjects = [
     description:
       "Un posto per ritrovare i compagni e verificare le fonti che li riguardano.",
     href: "https://archivio-di-classe.vercel.app/",
+    accent: "orange",
+  },
+  {
+    name: "MX Master 4",
+    topic: "Accesso limitato",
+    description: "Manuale Logitech MX Master 4.",
+    href: "https://mx-master-4.vercel.app/",
     accent: "orange",
   },
 ];
