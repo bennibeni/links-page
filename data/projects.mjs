@@ -461,6 +461,13 @@ const rawProjects = [
     href: "https://panasonicsc-hc35.vercel.app/",
     accent: "orange",
   },
+  {
+    name: "Canone in C",
+    topic: "Musica",
+    description: "Imparalo.",
+    href: "https://canone-in-c.vercel.app/",
+    accent: "slate",
+  },
 ];
 
 export const projects = validateProjects(rawProjects);
