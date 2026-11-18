@@ -463,8 +463,9 @@ const rawProjects = [
   },
   {
     name: "Canone in C",
+    isNew: true,
     topic: "Musica",
-    description: "Imparalo.",
+    description: "Impara a suonarlo.",
     href: "https://canone-in-c.vercel.app/",
     accent: "slate",
   },
